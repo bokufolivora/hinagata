@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ユーザー設定画面の側
+         (基本のレイアウト:ツールバーの下に設定項目表示さすため
+          他に方法あると思うが、見つけられなかった)
+    -->
+
+    <!-- 1. ツールバー  -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/set_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="?attr/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 2. 設定項目 : 表示する位置のみ、実際の内容は別に記載 -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_toolbar"
+        app:layout_constraintTop_toBottomOf="@+id/set_toolbar" />
+
+</android.support.constraint.ConstraintLayout>

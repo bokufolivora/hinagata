@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_item_0"
+        android:title="Item001"
+        android:icon="@mipmap/ic_launcher"
+        />
+    <item
+        android:id="@+id/navigation_item_1"
+        android:title="@string/sied_menu_item1"
+        android:icon="@mipmap/ic_launcher"
+        />
+    <item android:title="sub title">
+        <menu>
+            <item
+                android:id="@+id/sub_item0"
+                android:title="sub 0" />
+            <item
+                android:id="@+id/sub_item1"
+                android:title="sub 1"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_item_2"
+        android:title="item 2"
+        android:icon="@mipmap/ic_launcher"
+        />
+    <group
+        android:id="@+id/group_1">
+        <!--groupにidをつけると線(セパレータ)が表示 -->
+        <item android:title="group1"/>
+    </group>
+
+</menu>

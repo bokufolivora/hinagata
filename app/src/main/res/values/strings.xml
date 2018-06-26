@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Small_Skill</string>
+
+    <string name="main_title">Functional_test</string>
+    <string name="sub_title">sub title</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="hoge">SIDE HEADE</string>
+    <string name="todo">TODO</string>
+    <string name="header_title">Header Title</string>
+    <string name="ordinary_display">normal</string>
+    <string name="sied_menu_item0">GPS</string>
+    <string name="sied_menu_item1">graph</string>
+
+    <string name="add">add</string>
+    <string name="search">search</string>
+    <string name="menu_msg0">UNDISP</string>
+    <string name="menu_msg1">PREFERENCES</string>
+    <string name="menu_msg2">Internal storage</string>
+    <string name="menu_msg3">External storage</string>
+    <string name="menu_msg4">SQLite</string>
+    <string name="menu_msg5">seting</string>
+    <string name="menu_test">Test</string>
+
+    <string name="preferences_sample">PREFERENCES SAMPLE</string>
+    <string name="item_msg">1. MSG</string>
+    <string name="msg_save">Msg Save</string>
+    <string name="msg_read">Msg Read</string>
+    <string name="msg_def">Msg</string>
+    <string name="item_count">2. COUNT</string>
+    <string name="count_save">Count Save</string>
+    <string name="count_read">Count Read</string>
+    <string name="item_switch">3. SWITCH</string>
+    <string name="sw_read">Sw Read</string>
+    <string name="sw_save">Sw Save</string>
+
+    <string name="localFileName">localData.csv</string>
+    <string name="ExtFileName">extData.csv</string>
+
+    <string name="add_local_data">add local data</string>
+    <string name="button_add">ADD</string>
+    <string name="button_read">READ</string>
+    <string name="button_del">DELETE</string>
+
+    <string name="preferences_key_data">preferences_data</string>
+    <string name="preferences_key_data1">preferences_item_msg</string>
+    <string name="preferences_key_data2">preferences_item_count</string>
+    <string name="preferences_key_data3">preferences_item_sw</string>
+
+    <string name="parameter_key_switch">enable_switch_settings</string>
+    <string name="parameter_key_checkbox">enable_checkbox_seting</string>
+    <string name="parameter_gr_setint2">setings2</string>
+    <string name="parameter_key_text">text_value_preference</string>
+    <string name="parameter_key_number">number_value_preference</string>
+    <string name="parameter_gr_setint3">setings3</string>
+    <string name="parameter_key_list">week_sel_preference</string>
+    <string name="parameter_key_multi">planet_sel_preference</string>
+
+    <string name="parameter_intfo_gr_onof">ON/OFF format information</string>
+    <string name="parameter_info_switch">switch</string>
+    <string name="parameter_info_chkbox">check box</string>
+    <string name="parameter_info_gr_text">Text format information</string>
+    <string name="parameter_info_text">character</string>
+    <string name="parameter_info_number">number</string>
+    <string name="parameter_info_gr_sel">Selective information</string>
+    <string name="parameter_info_list">week</string>
+    <string name="parameter_info_multi">Selection of planets</string>
+
+    <string name="Sun">Sunday</string>
+    <string name="Mon">Monday</string>
+    <string name="Tue">Tuesday</string>
+    <string name="Wed">Wednesday</string>
+    <string name="Thurs">Thursday</string>
+    <string name="Fri">Friday</string>
+    <string name="Sat">Saturday</string>
+
+    <string name="planet_H">Mercury</string>
+    <string name="planet_V">Venus</string>
+    <string name="planet_E">Earth</string>
+    <string name="planet_M">Mars</string>
+    <string name="planet_J">Jupiter</string>
+    <string name="planet_S">Saturn</string>
+    <string name="planet_U">Uranus</string>
+    <string name="planet_N">Neptune</string>
+
+    <string name="Latitude">Latitude</string>
+    <string name="Longtude">Longtude</string>
+
+</resources>

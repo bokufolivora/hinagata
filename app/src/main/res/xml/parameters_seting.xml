@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/parameter_intfo_gr_onof">
+
+        <SwitchPreference
+            android:key="@string/parameter_key_switch"
+            android:title="@string/parameter_info_switch"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:key="@string/parameter_key_checkbox"
+            android:title="@string/parameter_info_chkbox"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/parameter_gr_setint2"
+        android:title="@string/parameter_info_gr_text"
+        android:enabled="false" >
+
+        <EditTextPreference
+            android:key="@string/parameter_key_text"
+            android:title="@string/parameter_info_text"
+            android:text ="@string/parameter_info_text"
+            />
+
+        <EditTextPreference
+            android:key="@string/parameter_key_number"
+            android:title="@string/parameter_info_text"
+            android:text="0"
+            android:inputType="number"
+            android:maxLength="3" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/parameter_gr_setint3"
+        android:title="@string/parameter_info_gr_sel"
+        android:enabled="false" >
+
+        <ListPreference
+            android:key="@string/parameter_key_list"
+            android:title="@string/parameter_info_list"
+            android:entries="@array/week_entries"
+            android:entryValues="@array/week_values"
+            android:defaultValue="@string/Sun" />
+
+        <MultiSelectListPreference
+            android:key="@string/parameter_key_multi"
+            android:title="@string/parameter_info_multi"
+            android:entries="@array/planet_entries"
+            android:entryValues="@array/planet_values" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

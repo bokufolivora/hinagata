@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="week_entries" >
+        <item>@string/Sun</item>
+        <item>@string/Mon</item>
+        <item>@string/Tue</item>
+        <item>@string/Wed</item>
+        <item>@string/Thurs</item>
+        <item>@string/Fri</item>
+        <item>@string/Sat</item>
+    </array>
+    <array name="week_values" >
+        <item>@string/Sun</item>
+        <item>@string/Mon</item>
+        <item>@string/Tue</item>
+        <item>@string/Wed</item>
+        <item>@string/Thurs</item>
+        <item>@string/Fri</item>
+        <item>@string/Sat</item>
+    </array>
+
+    <array name="planet_entries" >
+        <item>@string/planet_H</item>
+        <item>@string/planet_V</item>
+        <item>@string/planet_E</item>
+        <item>@string/planet_M</item>
+        <item>@string/planet_J</item>
+        <item>@string/planet_S</item>
+        <item>@string/planet_U</item>
+        <item>@string/planet_N</item>
+    </array>
+    <array name="planet_values" >
+        <item>@string/planet_H</item>
+        <item>@string/planet_V</item>
+        <item>@string/planet_E</item>
+        <item>@string/planet_M</item>
+        <item>@string/planet_J</item>
+        <item>@string/planet_S</item>
+        <item>@string/planet_U</item>
+        <item>@string/planet_N</item>
+    </array>
+
+
+</resources>

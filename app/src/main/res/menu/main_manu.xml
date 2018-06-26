@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings0"
+        android:title="@string/menu_msg0"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings1"
+        android:title="@string/menu_msg1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings2"
+        android:title="@string/menu_msg2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings3"
+        android:title="@string/menu_msg3"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings4"
+        android:title="@string/menu_test"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings5"
+        android:title="@string/menu_msg5"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/add"
+        app:showAsAction="always" />
+
+
+</menu>
